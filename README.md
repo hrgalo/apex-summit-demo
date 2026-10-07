@@ -1,8 +1,8 @@
 # APEX Summit — Landing page (demo)
 
-Landing page estática de **APEX Summit**: expediciones premium de alta montaña para principiantes, organizadas desde Honduras.
+Landing page estática de **APEX Summit**: expediciones de alta montaña, trekking y aventura para principiantes, organizadas desde Honduras.
 
-> Versión demo. Los textos entre corchetes (`[PRECIO USD]`, `[POR DEFINIR]`, `[Foto: …]`, `[CORREO DE CONTACTO]`) son marcadores pendientes de completar con datos confirmados.
+> Versión demo. Los textos entre corchetes (`[PRECIO USD]`, `[POR DEFINIR]`, `[Foto: …]`, `[CORREO DE CONTACTO]`, perfiles del staff) son marcadores pendientes de completar con datos confirmados.
 
 ## Contenido
 
@@ -23,13 +23,14 @@ Abre `index.html` en el navegador.
 El acento está definido en una sola variable CSS dentro de `index.html`:
 
 ```css
-:root{--accent:#C9CDD2}
+:root{--accent:#A9C4A0}
 ```
 
-Variantes exploradas en los mockups: verde bosque `#8FB59A`, ocre `#D2A866` y azul `#8FB3D9`.
+La versión actual usa la paleta verde (fondos verde bosque, acento salvia `#A9C4A0`). Alternativas: crema `#E4DCC3`, plata `#C9CDD2`, ocre `#D2A866`.
 
 ## Pendientes antes de publicar
 
 - Reemplazar el isotipo provisional (SVG en línea) por el logo vectorial definitivo de APEX Summit.
 - Completar precios, duraciones, fotos y datos de contacto.
+- Completar los perfiles del staff (rol, experiencia, certificaciones) y los datos de las charlas técnicas.
 - Conectar el formulario de contacto a un servicio de envío (actualmente no envía datos).
